@@ -1,31 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> Data Pro Group Contact Info</title>
-        <meta charset="utf-8">
-        <meta name="keywords" content="Data Pro Group, contact us, email">
-
-    </head>
-    <body>
-        <header>
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Data Pro Group, contact us, email">
+    <title> Data Pro Group Contact Info</title>
+</head>
+<body>
+    <header>
+        <div>
             <img src="images/DataProGroup.png" alt="Data Pro Group logo" class="logo" width="200" height="200">
-            <nav>
-                <ul>
-                    <li class="home"><a href="about.html">Home</a></li>
-                    <li class="contact" id="here">Contact</li>
-                    <li class="services"><a href="services.html">Services</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-
+        </div>
+        <nav>
+            <ul>
+                <li class="home"><a href="about.html">Home</a></li>
+                <li class="current"><a href="contact.html">Contact</li>
+                <li class="services"><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <main>
-    <article>
-        <h1>Data Pro Group Contact Info</h1>
+        <h2> Get In Touch with Data Pro Group </h1>
         <hr>
-        <p>Do you have questions for us? Please fill out the form below.</p>
-         <br>
-         <img src="images/DataProGroup.png" alt="DataProGroupLogo">
+        <p>Are you ready to start your data science journey or have questions for us? Please fill out the form below.</p>
+        <br>
 
-    </article>
+        <form action="#" method="POST">
+
+            <div>
+                <label for="name"> Name*: </label>
+                <input type="text" id="name" name="name" required>
+
+            </div>
+
+            <div>
+                <label for="email">Email*:</label>
+                <input type="email" id="email" name="email" placeholder="example@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            </div>
+
+            <div>
+                <label for="message">Message*:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </div>
+
+            <fieldset>
+                <legend>Contact Reason*</legend>
+                <input type="radio" id="support" name="reason" value="support" required>
+                <label for="support">Support</label><br>
+                
+                <input type="radio" id="purchase" name="reason" value="purchase">
+                <label for="purchase">Purchase Inquiry</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Interested Packages (Select at least one)</legend>
+                <input type="checkbox" id="sprout" name="package" value="Data Sprout">
+                <label for="sprout">Data Sprout ($29)</label><br>
+                
+                <input type="checkbox" id="launchpad" name="package" value="Analyst's Launchpad">
+                <label for="launchpad">Analyst's Launchpad ($39)</label><br>
+                
+                <input type="checkbox" id="ml" name="package" value="ML Explorer">
+                <label for="ml">ML Explorer ($39)</label><br>
+
+                <input type="checkbox" id="dpp" name="package" value="Data Pipeline Pro">
+                <label for="dpp">Data Pipeline Pro ($59)</label><br>
+
+                <input type="checkbox" id="stats" name="package" value="Stats Master">
+                <label for="stats"> Stats Master ($59) </label><br>
+
+            </fieldset>
+
+            <div>
+                <button type="submit">Send Message</button>
+                <button type="reset">Clear Form</button>
+            </div>
+        </form>
     </main>
+</body>
+
+</html>
