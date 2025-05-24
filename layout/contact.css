@@ -1,0 +1,79 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2e8bc0;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        
+.logo-place {
+    display: flex;
+    align-items: center;
+}
+        
+.logo {
+    height: 180px; 
+    width: auto;  
+}
+
+.connect {
+    color: white;
+    font-size: 60px;
+    font-family: 'Impact', 'Arial Rounded MT Bold', 'Franklin Gothic Medium', sans-serif;
+    font-weight: 400;
+    text-shadow: 2px 2px 0 #3498db, 4px 4px 0 rgba(0,0,0,0.2);
+    letter-spacing: 1.5px;
+    margin: 15px 0 20px;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 15px;
+    display: inline-block;
+}
+    
+.buttons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    font-family: Arial, sans-serif;
+    border: 2px solid rgba(255,255,255,0.2);
+}
+
+.buttons a:hover {
+    background-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.buttons .active {
+    background-color: #3498db;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/** Page footer **/
+footer {
+    background-color: #0c2d48;
+    color: white;
+    text-align: center;
+    padding: 20px 0; 
+    margin-top: 30px;
+    font-size: 20px;
+}
