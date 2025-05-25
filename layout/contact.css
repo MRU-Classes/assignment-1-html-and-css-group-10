@@ -38,10 +38,9 @@ header {
 .buttons {
     list-style: none;
     padding: 0;
-    margin: 0;
     display: flex;
     gap: 15px;
-    justify-content: center;
+    margin: 0 auto
 }
 
 .buttons a {
@@ -69,7 +68,7 @@ header {
 }
 
 body {
-    background: #145da0;
+    background: linear-gradient(135deg, #145da0 0%, #0c2d48 100%);
     margin: 0;
 }
 
@@ -132,7 +131,7 @@ legend {
     color: #0c2d48;
     font-weight: 600;
     padding: 0 10px;
-    font-size: 16 px;
+    font-size: 16px;
 }
 
 fieldset label {
@@ -198,7 +197,7 @@ h2 {
 
 .email {
     color: #145da0;
-    font-size: 1.1rem;
+    font-size: 18px;
     text-align: center;
     margin-bottom: 25px;
 }
