@@ -85,13 +85,14 @@ section {
 }
 
 h2 {
-    color: #0c2d48;
-    font-size: 30px;
+    color: #145da0;
+    font-size: 32px;
     text-align: center;
     font-weight: bold;
     margin-bottom: 25px;
+    text-shadow: 2px 2px 0 #ffffff, 0 0 5px rgba(20, 93, 160, 0.5);
 }
-
+    
 h3 {
     color: #0c2d48;
     font-size: 25px;
