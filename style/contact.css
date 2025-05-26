@@ -151,11 +151,8 @@ legend {
 }
 
 fieldset label {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
-    font-weight: 600;
     display: inline;
-
 }
 
 fieldset div {
