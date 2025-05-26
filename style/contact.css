@@ -95,7 +95,7 @@ main {
     text-align: center;
     font-weight: bold;
     margin-bottom: 25px;
-    text-shadow: 2px 2px 0 #ffffff, 0 0 5px rgba(20, 93, 160, 0.5);
+    text-shadow: 1px 1px 0 #ffffff, 0 0 5px rgba(20, 93, 160, 0.5);
     
 }
 
@@ -115,6 +115,13 @@ label {
     font-weight: 600;
     margin-bottom: 8px;
     font-size: 16px;
+}
+
+.mail, 
+.msg, 
+.tele, 
+.names {
+    font-size: 22px;
 }
 
 input[type="text"], 
@@ -140,7 +147,7 @@ legend {
     color: #0c2d48;
     font-weight: 600;
     padding: 0 10px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 fieldset label {
@@ -212,7 +219,7 @@ hr {
 }
 
 .email {
-    color: #145da0;
+    color: black;
     font-size: 18px;
     text-align: center;
     margin-bottom: 25px;
